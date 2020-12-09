@@ -1,6 +1,6 @@
 module.exports = {
-  clientId: '3a095ead-a361-4c33-b01b-2ad95225e9b1', // Make sure to set your environment up correctly when starting/building
-  scope: 'patient/Patient.read patient/Condition.read',
-  iss: 'https://fhir-ehr.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca',
+  clientId: '3f0b6549-c83d-40bd-8da7-d3d53061d622', // Make sure to set your environment up correctly when starting/building
+  scope: 'patient/Condition.read patient/MedicationAdministration.read patient/MedicationOrder.read patient/MedicationStatement.read patient/Observation.read patient/Patient.read',
+  iss: 'https://fhir-ehr-code.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d',
   redirectUri: 'http://localhost:3000/',
 };
