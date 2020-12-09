@@ -22,6 +22,9 @@ const homeReducer = (state = initialState, action) =>
       case LOAD_PATIENT_INFO_SUCCESS:
         draft.patient = action.payload;
         break;
+      case 'Home/LOAD_CONDITIONS':
+        draft.conditions = action.payload;
+        break;
       case LOAD_PATIENT_INFO_ERROR:
         draft.patient = {
           error: 'Something went wrong',
